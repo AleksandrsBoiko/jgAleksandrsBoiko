@@ -14,6 +14,8 @@ public class Human {
 
     public void setAge (int age) {this.age = age;}
 
-    public void sayHi() {System.out.println("Hi, My name is " + name + ", I'm " + age + " years old");}
+    public void sayHi() {
+        System.out.println("Hi, My name is " + name + ", I'm " + age + " years old");
+    }
 
 }
