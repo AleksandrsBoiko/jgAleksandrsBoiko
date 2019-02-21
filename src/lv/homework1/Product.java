@@ -30,7 +30,7 @@ public class Product {
     }
 
     double calculateActualPrice(){
-       return regularPrice-regularPrice*discount/100;
+       return regularPrice-regularPrice*discount/(double)100;
 
 
     }
