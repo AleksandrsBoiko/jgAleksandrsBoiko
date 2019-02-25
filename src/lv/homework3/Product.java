@@ -1,6 +1,8 @@
-package lv.homework1;
+package lv.homework3;
 
 public class Product {
+
+    //visiem mainīgajiem jabūt "private"
     String name;
     double regularPrice;
     double discount;
@@ -31,11 +33,13 @@ public class Product {
 
     double calculateActualPrice(){
        return regularPrice-regularPrice*discount/(double)100;
-
-
     }
 
+    //nepieciešams sadalīt, jo ir parāk garšs
     public void printInformation() {
-        System.out.println("Product : name = " + name + " regular price = " + regularPrice + " discount = " + discount + " actual price = " + calculateActualPrice() + " EUR");
+        System.out.println("Product : name = " + name
+                + " regular price = " + regularPrice
+                + " discount = " + discount
+                + " actual price = " + calculateActualPrice() + " EUR");
     }
 }

@@ -1,6 +1,8 @@
-package lv.homework1;
+package lv.homework3;
 
 public class Car {
+
+    //visiem mainīgajiem jabūt "private"
     String color;
     String manufacturer;
     int year;

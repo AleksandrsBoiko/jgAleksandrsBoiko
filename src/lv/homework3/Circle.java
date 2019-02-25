@@ -1,7 +1,8 @@
-package lv.homework1;
+package lv.homework3;
 
 public class Circle {
 
+    //visiem mainīgajiem jabūt "private"
     double radius;
 
     public double getRadius (){

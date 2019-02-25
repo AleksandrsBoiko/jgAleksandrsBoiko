@@ -1,5 +1,6 @@
-package lv.homework1;
+package lv.homework3;
 
+//OK
 public class ProductTest {
 
     public static void main(String[] args) {
