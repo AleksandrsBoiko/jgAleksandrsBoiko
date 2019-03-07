@@ -6,38 +6,38 @@ public class SignComparatorTest {
 
         SignComparatorTest test = new SignComparatorTest();
 
-        test.shouldDetectPositiveNumber();
+        test.shouldComparePositiveNumber();
 
-        test.shouldDetectNegativeNumber();
+        test.shouldCompareNegativeNumber();
 
-        test.shouldDetectEqualToZero();
+        test.shouldCompareEqualToZero();
     }
 
-    public void shouldDetectPositiveNumber() {
+    public void shouldComparePositiveNumber() {
 
         SignComparator comparator = new SignComparator();
 
         String result = comparator.compare(11);
 
-        compareResult(result.equals("Number is positive"), "shouldDetectPositiveNumber");
+        compareResult(result.equals("Number is positive"), "shouldComparePositiveNumber");
     }
 
-    public void shouldDetectNegativeNumber() {
+    public void shouldCompareNegativeNumber() {
 
         SignComparator comparator = new SignComparator();
 
         String result = comparator.compare(-33);
 
-        compareResult(result.equals("Number is negative"), "shouldDetectNegativeNumber");
+        compareResult(result.equals("Number is negative"), "shouldCompareNegativeNumber");
     }
 
-    public void shouldDetectEqualToZero() {
+    public void shouldCompareEqualToZero() {
 
         SignComparator comparator = new SignComparator();
 
         String result = comparator.compare(0);
 
-        compareResult(result.equals("Number is equal to zero"), "shouldDetectEqualToZero");
+        compareResult(result.equals("Number is equal to zero"), "shouldCompareEqualToZero");
     }
 
     void compareResult(boolean result, String testName) {
