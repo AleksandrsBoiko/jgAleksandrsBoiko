@@ -6,11 +6,17 @@ public class DogAgeCalculatorTest {
 
         DogAgeCalculator dogAgeCalculator = new DogAgeCalculator();
 
-        int result = dogAgeCalculator.humanAgeToDogAge(40);
+        int actualResultHumanAgeToDogAge = dogAgeCalculator.humanAgeToDogAge(40);
 
-        int result2 = dogAgeCalculator.dogAgeToHumanAge(6);
+        int expectedResultHumanageToDogAge = 6;
 
-        System.out.println(result);
-        System.out.println(result2);
+        int actualResultDogAgetoHumanAge = dogAgeCalculator.dogAgeToHumanAge(4);
+
+        int expectedResultDogAgeToHumanAge = 32;
+
+        System.out.println("Actual result Human Age to Dog Age: " + actualResultHumanAgeToDogAge);
+        System.out.println("Expected result Human Age to Dog Age: " + expectedResultHumanageToDogAge);
+        System.out.println("Actual result Dog Age to Human Age: " + actualResultDogAgetoHumanAge);
+        System.out.println("Expected result Dog Age to Human Age: " + expectedResultDogAgeToHumanAge);
     }
 }
