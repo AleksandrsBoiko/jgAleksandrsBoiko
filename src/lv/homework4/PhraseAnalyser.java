@@ -22,6 +22,7 @@ public class PhraseAnalyser {
                 && phrase.charAt(phrase.length() - 1) == 'n') {
 
             return "It stands no change..";
+
         } else if ( (phrase.charAt(0) == 'M'
                 && phrase.charAt(1) == 'a'
                 && phrase.charAt(2) == 'k'
