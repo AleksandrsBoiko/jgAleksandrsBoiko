@@ -1,5 +1,6 @@
 package lv.homework4;
 
+//ctrl + alt + l
 public class NoiseLevelDetector {
 
     public String detect(int level) {
