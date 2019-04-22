@@ -1,5 +1,6 @@
 package lv.homework4;
 
+//ievēŗo koda formatēšanas principus, lai kods ir vieglāk lasāms- ctrl + alt + z
 public class DogAgeCalculator {
 
     public int humanAgeToDogAge(int humanAge) {

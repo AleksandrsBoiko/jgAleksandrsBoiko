@@ -4,7 +4,7 @@ public class PhraseAnalyser {
 
     public String analyse(String phrase) {
 
-
+        // String ir metodes "substring", kuru ir jāizmanto
         if ( phrase.charAt(0) == 'M'
                 && phrase.charAt(1) == 'a'
                 && phrase.charAt(2) == 'k'

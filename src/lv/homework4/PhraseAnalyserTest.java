@@ -1,5 +1,6 @@
 package lv.homework4;
 
+//ctrl + alt + l
 public class PhraseAnalyserTest {
 
     public static void main(String[] args) {

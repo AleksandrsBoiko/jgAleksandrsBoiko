@@ -2,6 +2,8 @@ package lv.homework4;
 
 public class DogAgeCalculatorTest {
 
+
+    //test cases labak sadalīt atsevišķās metodēs
     public static void main(String[] args) {
 
         DogAgeCalculator dogAgeCalculator = new DogAgeCalculator();
