@@ -1,4 +1,4 @@
-package lv.Lesson4;
+package lv.lesson4;
 
 import lesson5.BasicCounter;
 
