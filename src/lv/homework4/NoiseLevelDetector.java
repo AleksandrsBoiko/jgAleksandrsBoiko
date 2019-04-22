@@ -7,19 +7,19 @@ public class NoiseLevelDetector {
 
         if (level >= 130) {
 
-        return "Jackhammer";
+            return "Jackhammer";
 
         }
 
         if (level >= 70) {
 
-        return "Gas lawnmower";
+            return "Gas lawnmower";
 
         }
 
         if (level >= 40) {
 
-        return "Alarm clock";
+            return "Alarm clock";
 
         }
 
