@@ -1,3 +1,4 @@
+/*
 package lv.lesson4;
 
 import lesson5.BasicCounter;
@@ -16,3 +17,4 @@ public class BasicCounterTest {
 
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package lv.lesson9.todo;
 
 import java.util.ArrayList;
@@ -15,3 +16,4 @@ public class ToDoList {
         toDos.add(todo);
     }
 }
+*/

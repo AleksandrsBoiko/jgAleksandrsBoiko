@@ -1,3 +1,4 @@
+/*
 package lv.lesson10.checked;
 
 import java.io.IOException;
@@ -18,4 +19,5 @@ public class CheckedExeptionDemo {
     }
 }
 
+*/
 

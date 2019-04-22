@@ -1,3 +1,4 @@
+/*
 package lv.lesson10.bookrepository;
 
 
@@ -23,3 +24,4 @@ public class RepositoryDemo {
 
     }
 }
+*/

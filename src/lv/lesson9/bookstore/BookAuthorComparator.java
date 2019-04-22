@@ -1,3 +1,4 @@
+/*
 package lv.lesson9.bookstore;
 
 public class BookAuthorComparator implements Comparable<Book> {
@@ -8,3 +9,4 @@ public class BookAuthorComparator implements Comparable<Book> {
         return book.compare;
     }
 }
+*/

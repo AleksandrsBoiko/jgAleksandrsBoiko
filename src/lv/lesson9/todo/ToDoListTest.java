@@ -1,3 +1,4 @@
+/*
 package lv.lesson9.todo;
 
 public class ToDoListTest {
@@ -13,3 +14,4 @@ public class ToDoListTest {
         }
     }
 }
+*/
