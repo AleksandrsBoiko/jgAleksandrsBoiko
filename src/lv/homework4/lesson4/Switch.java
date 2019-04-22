@@ -1,4 +1,4 @@
-package lesson4;
+package lv.homework4.lesson4;
 
 public class Switch {
 
@@ -12,13 +12,20 @@ public class Switch {
     private static String translateHttpCode(int code) {
         String message = null;
 
-        switch(code) {
-            case 200: message = "Ok"; break;
-            case 400: message = "Bad request"; break;
+        switch (code) {
+            case 200:
+                message = "Ok";
+                break;
+            case 400:
+                message = "Bad request";
+                break;
             case 500:
                 System.out.println("Server error 500");
-            case 501: message = "Server error"; break;
-            default: message = "Unknown error";
+            case 501:
+                message = "Server error";
+                break;
+            default:
+                message = "Unknown error";
         }
         return message;
     }
