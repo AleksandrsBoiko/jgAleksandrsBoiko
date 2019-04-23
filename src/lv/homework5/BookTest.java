@@ -6,27 +6,26 @@ public class BookTest {
         testBookEquals();
     }
 
-   private static void testBookEquals() {
+    private static void testBookEquals() {
         Book EqulibriumB1 = new Book("J.Dexter", "Equlibrium", 485);
         Book EqulibriumB2 = new Book("J.Dexter", "Equlibrium", 485);
         boolean expectedEquals = true;
 
-       System.out.println("Object equals true test");
-       boolean actual = EqulibriumB1.equals(EqulibriumB2);
-       if (actual) {
-           System.out.println("PASSED");
-       }
-       else {
-           System.out.println("FAILED");
-           System.out.println("Expected: " + expectedEquals);
-           System.out.println("Actual " + actual);
-       }
+        System.out.println("Object equals true test");
+        boolean actual = EqulibriumB1.equals(EqulibriumB2);
+        if (actual) {
+            System.out.println("PASSED");
+        } else {
+            System.out.println("FAILED");
+            System.out.println("Expected: " + expectedEquals);
+            System.out.println("Actual " + actual);
+        }
 
-   }
+    }
 
     private static void testBookTestToString() {
 
-        Book book = new Book("J.Dexter","Equilibrium", 485);
+        Book book = new Book("J.Dexter", "Equilibrium", 485);
 
         String expected = "Book { author: J.Dexter, title: Equilibrium, page count: 485}";
 

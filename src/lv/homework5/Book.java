@@ -9,7 +9,7 @@ public class Book {
     private String title;
     private int pageCount;
 
-    Book (String author, String title, int pageCount){
+    Book(String author, String title, int pageCount) {
         this.author = author;
         this.title = title;
         this.pageCount = pageCount;
@@ -35,7 +35,6 @@ public class Book {
     }
 
 
-
     public void setTitle(String title) {
         this.title = title;
     }
@@ -48,7 +47,7 @@ public class Book {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || this.getClass() != o.getClass()) return false;
-        Book book = (Book)o;
+        Book book = (Book) o;
         return Objects.equals(this.author, book.author)
                 && Objects.equals(this.title, book.title)
                 && this.pageCount == book.pageCount;
@@ -58,7 +57,6 @@ public class Book {
     public String toString() {
         return "Book { author: " + author + ", title: " + title + ", page count: " + pageCount + "}";
     }
-
 
 
 }
