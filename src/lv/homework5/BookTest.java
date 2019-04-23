@@ -2,7 +2,7 @@ package lv.homework5;
 
 public class BookTest {
     public static void main(String[] args) {
-        //testBookTestToString();
+        testBookTestToString();
         testBookEquals();
     }
 
@@ -24,10 +24,11 @@ public class BookTest {
 
    }
 
-    private static void testCandyBoxToString() {
+    private static void testBookTestToString() {
+
         Book book = new Book("J.Dexter","Equilibrium", 485);
 
-        String expected = "Book { author: J.Dexter, title: Equlibrium, pageCount: 485}";
+        String expected = "Book { author: J.Dexter, title: Equilibrium, page count: 485}";
 
         if (expected.equals(book.toString())) {
 

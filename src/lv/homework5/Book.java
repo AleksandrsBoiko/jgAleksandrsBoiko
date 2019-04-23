@@ -56,7 +56,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book { author: " + author + ", title: " + title + "page count: " + pageCount + "}";
+        return "Book { author: " + author + ", title: " + title + ", page count: " + pageCount + "}";
     }
 
 
