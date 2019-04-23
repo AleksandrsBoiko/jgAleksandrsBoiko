@@ -6,10 +6,12 @@ public class ArrayServiceTest {
 
         ArrayService service = new ArrayService();
 
-        int[] array = service.create(10);
+        int[] array = service.createArray(10);
 
         service.fillArrayWithRandomNumbers(array);
 
         service.printArrayToConsole(array);
+
+        service.sumInArray(array);
     }
 }
