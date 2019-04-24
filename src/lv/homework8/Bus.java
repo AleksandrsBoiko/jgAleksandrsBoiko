@@ -18,6 +18,7 @@ public class Bus extends Car {
                 ", brand='" + brand + '\'' +
                 ", color='" + color + '\'' +
                 ", year=" + year +
+                ", weight=" + weight +
                 '}';
     }
 

@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class Truck extends Car {
 
+
     protected String engineClass;
     protected int maxAxleLoad;
 
@@ -21,6 +22,7 @@ public class Truck extends Car {
                 ", brand='" + brand + '\'' +
                 ", color='" + color + '\'' +
                 ", year=" + year +
+                ", weight=" + weight +
                 '}';
     }
 
