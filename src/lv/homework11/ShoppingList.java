@@ -12,17 +12,14 @@ public class ShoppingList {
         shoppingList.add(new Product(productName, price, category));
 
         return shoppingList;
+
     }
 
-
-   /* public static List<Product> createProduct(){
-
-        List<Product> shoppingList = new ArrayList<>();
-
-        shoppingList.add(new Product("Milk", 1.20, "food"));
-
-        return shoppingList;
-    }*/
+    public void print() {
+        System.out.println("=====================");
+        shoppingList.forEach( item->System.out.println(item) );
+        System.out.println("======================");
+    }
 
 
 }

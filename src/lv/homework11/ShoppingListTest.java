@@ -6,6 +6,8 @@ public class ShoppingListTest {
 
         ShoppingList shoppingList = new ShoppingList();
         shoppingList.addProduct("Milk", 1.20, "food");
+        shoppingList.addProduct("Beer", 1.39, "food");
+        shoppingList.print();
 
 
 

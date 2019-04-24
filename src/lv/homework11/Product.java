@@ -9,6 +9,11 @@ public class Product {
     private double price;
     private String category;
 
+    @Override
+    public String toString() {
+        return productName + " - " + price + " - " + category;
+    }
+
     public Product(String productName, double price, String category) {
         this.productName = productName;
         this.price = price;
