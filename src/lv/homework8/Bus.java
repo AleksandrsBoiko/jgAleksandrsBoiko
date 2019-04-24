@@ -6,7 +6,7 @@ public class Bus extends Car {
 
     protected int maxPassengers;
 
-    public Bus(String brand, String color, int year, int weight, String engineClass, int maxPassengers) {
+    public Bus(String brand, String color, int year, int weight, int maxPassengers) {
         super(brand, color, year, weight);
         this.maxPassengers = maxPassengers;
     }
