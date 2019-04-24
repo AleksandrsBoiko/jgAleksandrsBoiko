@@ -5,7 +5,7 @@ import javax.xml.bind.ValidationException;
 public class UserValidationService {
 
 
-    public UserValidationService(String name, String lastName, Integer age) throws ValidationException {
+    UserValidationService(String name, String lastName, Integer age) throws ValidationException {
 
         if (age <=0 || age>=120) {
             throw new ValidationException("Age can be from 0 till 120");
