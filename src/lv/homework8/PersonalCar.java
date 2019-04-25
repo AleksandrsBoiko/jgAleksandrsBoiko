@@ -2,7 +2,7 @@ package lv.homework8;
 
 import java.util.Objects;
 
-public class PersonalCar extends Car{
+public class PersonalCar extends Car {
 
 
     protected String model;
@@ -42,7 +42,6 @@ public class PersonalCar extends Car{
     public int hashCode() {
         return Objects.hash(super.hashCode(), model, fuelType);
     }
-
 
 
 }

@@ -15,14 +15,16 @@ public class UniqueWordVocabulary {
             vocabulary.add(word);
         }
     }
-        public void printToConsole () {
-            for (String listOfWords : vocabulary) {
-                System.out.println(listOfWords);
-            }
+
+    public void printToConsole() {
+        for (String listOfWords : vocabulary) {
+            System.out.println(listOfWords);
         }
-        public void getUniqueWords () {
-            System.out.println("Vocabulary word count: " + vocabulary.size());
-        }
+    }
+
+    public void getUniqueWords() {
+        System.out.println("Vocabulary word count: " + vocabulary.size());
+    }
 
 
 }

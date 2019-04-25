@@ -10,7 +10,7 @@ public class Car {
     protected int year;
     protected int weight;
 
-    public Car(String brand, String color, int year, int weight){
+    public Car(String brand, String color, int year, int weight) {
         this.brand = brand;
         this.color = color;
         this.year = year;

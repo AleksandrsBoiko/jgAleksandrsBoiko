@@ -1,7 +1,5 @@
 package lv.homework11;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Product {
 
@@ -43,8 +41,6 @@ public class Product {
     public void setCategory(String category) {
         this.category = category;
     }
-
-
 
 
 }
