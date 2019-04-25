@@ -25,7 +25,9 @@ public class ShoppingList {
 
         for (int i = 0; i < shoppingList.size(); i++) {
 
-            shoppingList.remove(productName);
+           if (shoppingList.get(i).getProductName().equals(productName)){
+               shoppingList.remove(i);
+            }
         }
 
 
